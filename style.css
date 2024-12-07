@@ -1,0 +1,369 @@
+
+@font-face{
+    font-family: kanit;
+    src: url("kanit-black-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: kanit;
+    src: url("kanit-blackitalic-webfont.woff") format("woff");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: kanit;
+    src: url("kanit-bold-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face{
+    font-family: kanit;
+    src: url("kanit-bolditalic-webfont.woff") format("woff");
+    font-style: italic;
+    font-weight: bold;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.navbar{
+   
+    background-color: #74e4fc;
+    border-bottom: 5px solid black;
+}
+.nav-part{
+   
+    padding-left: 48px;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    align-content:center;
+}
+.logo {
+    margin-right: 48px;
+
+}
+.logo-part:hover{
+    border: 2px solid black;
+}
+#list{
+    height: 60px;
+    width: 467.600px;
+    list-style-type:none;
+    align-content: center;
+
+}
+.items{
+    text-decoration: none; color: black; font-family: kanit;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+}
+ul#list li{
+    display: inline;
+
+    
+}
+
+div.container{
+    height: 71px;
+    padding-left: 600px;
+   align-content:center;
+   align-items: end;
+    font-size: 30px;
+}
+.icons{
+    text-decoration: none;
+    color: black;
+    
+}
+.banner{
+    display: flex;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   
+}
+.banner-img{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+    
+    border-radius:40px;
+    
+}
+
+.slider{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: kanit;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(255, 86, 235);
+    -webkit-text-stroke-width: 5px;
+
+    
+}
+.mar{
+    font-size:100px;
+   
+}
+
+.crousal{
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    display: block;
+    width:100%;
+    border: 5px solid black;
+    border-radius: 2%;
+    background-image:linear-gradient(#74e4fc,rgb(0,146,178),rgb(255, 86, 235)) ;
+    margin-top:30px ;
+    margin-bottom: 64px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.img{
+    display: flex;
+    width: 100%;
+    height:500px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.storm{
+    width: 1024px;
+}
+.crspace{
+    display: flex;
+    width:100%;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+
+.vids1{
+    background-image: url("image1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10%;
+    
+    
+}
+.vids2{
+    display: flex;
+    
+    justify-content:center;
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+   
+}
+.vid{
+    
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+.vids3{
+    background-image: url("image2.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 10%;
+    
+}
+.where{
+    
+    width: 100%;
+    height: 650px;
+    background-image: url("Screenshot 2024-12-06 204818.png");
+background-repeat: no-repeat;
+background-size: cover;
+border-top: 3px solid black;
+border-bottom: 3px solid black;
+
+
+}
+.beast{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #d444a4;
+    justify-content: center;
+    align-items: center;
+}
+
+.big{
+    height: 770px;
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #14bcec;
+}
+.small{
+   display: inline-flex;
+   height: 90%;
+    width: 90%;
+    
+    background-color: #74e4fc;
+border: 3px solid black;
+border-radius: 16px;
+
+}
+.b{
+    
+
+    width: 50%;
+    display: block;
+    
+    justify-content: space-evenly;
+
+}
+.three{
+    
+    width: 100%;
+    height: 33.3%;
+}
+.a{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    
+    width: 50%;
+    
+}
+.teen1{
+    display: flex;
+    
+    grid-row: 1;
+    grid-column: 1;
+    justify-content: end;
+    align-items: center;
+}
+.feast{
+    list-style-type: none;
+    color: #4c2a2b;
+    font-family: kanit;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+}
+.teen2{
+    display: flex;
+    
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+.teen3{
+    display: flex;
+    grid-column: 1/span 2;
+    grid-row: 2;
+    justify-content: center;
+    align-items: start;
+    
+
+}
+.feas{
+    font-family: kanit; 
+    font-weight: bold; 
+    font-style: normal;
+    font-size: 24px;
+}
+.three1{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 2%;
+    font-size: 50px;
+    color:black;
+
+}
+.three2{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    font-family: kanit; 
+    font-weight: normal; 
+    font-style: normal;
+    color: #4c2a2b;
+    
+
+}
+.email{
+    height: 60px;
+    width: 175px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: 3px solid black;
+    font-family: kanit;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+}
+.sign{
+    height: 60px;
+    width: 139px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: 3px solid black;
+    border-left: none;
+    font-family: kanit;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    background-color: #14bcec;
+
+}
+.sign:active{
+     background-color: black;
+}
+.three3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: kanit;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
