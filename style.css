@@ -50,7 +50,7 @@
     
     z-index: -1;
     width: 20px;
-    animation: bubble2 5s linear infinite;
+    animation: bubble2 2s linear infinite;
 }
 @keyframes bubble2{
     0%{
@@ -88,31 +88,31 @@
     width: 25px;
 }
 .snow2 img:nth-child(3){
-    animation-delay: 0s;
+    animation-delay: 0.5s;
     width: 10px;
 }
 .snow2 img:nth-child(4){
-    animation-delay: 3s;
+    animation-delay: 0.75s;
     width: 15px;
 }
 .snow2 img:nth-child(5){
-    animation-delay: 3.5s;
+    animation-delay: 2s;
     width: 10px;
 }
 .snow2 img:nth-child(6){
-    animation-delay: 3s;
+    animation-delay: 0.7s;
     width: 20px;
 }
 .snow2 img:nth-child(7){
-    animation-delay: 4s;
+    animation-delay: 0.3s;
     width: 25px;
 }
 .snow2 img:nth-child(8){
-    animation-delay: 4.5s;
+    animation-delay: 1.5s;
     width: 10px;
 }
 .snow2 img:nth-child(9){
-    animation-delay: 6s;
+    animation-delay: 2s;
     width: 10px;
 }
 .nav-part{
